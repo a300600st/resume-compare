@@ -1,8 +1,10 @@
-body {
+body
+{
 	background-color: #6699ff;
 }
 
-.wrapper {
+.wrapper
+{
 	position: absolute;
 	display: inline-block;
 	top: 50px;
@@ -15,13 +17,15 @@ body {
 	overflow: auto;
 }
 
-.wrapper:after {
+.wrapper:after
+{
 	padding-top: 129.41%;
 	display: block;
-	content: '';
+	content: "";
 }
 
-.side {
+.side
+{
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -32,11 +36,13 @@ body {
 	background-color: white;
 }
 
-#business-side {
+#business-side
+{
 	font-family: sans-serif;
 }
 
-#nerd-side {
+#nerd-side
+{
 	font-family: monospace;
 }
 
@@ -50,89 +56,106 @@ body {
 	color: blue;
 }
 
-.nerd .header {
+.nerd .header
+{
 	color: green;
 	overflow: hidden;
 	white-space: nowrap;
 }
 
-.nerd .header div {
+.nerd .header div
+{
 }
 
-.nerd .header .address {
+.nerd .header .address
+{
 	float: left;
 	padding-right: 30px;
 }
 
-.nerd .header .email {
+.nerd .header .email
+{
 	float: right;
 	padding-left: 30px;
 	color: blue;
 }
 
-.nerd .header .phone {
+.nerd .header .phone
+{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 20px;
 	text-align: center;
 }
 
-.nerd h2 {
+.nerd h2
+{
 	margin: 0;
 	font-size: 14px;
 	text-transform: uppercase;
 }
 
-.nerd h2:after {
+.nerd h2:after
+{
 	content: "\>";
 }
 
-.nerd h2:first-of-type {
+.nerd h2:first-of-type
+{
 	margin-top: 10px;
 }
 
-.nerd h2:last-of-type {
+.nerd h2:last-of-type
+{
 	margin-bottom: 10px;
 }
 
-.nerd h2:first-of-type:before {
+.nerd h2:first-of-type:before
+{
 	content: "\<";
 }
 
-.nerd h2:last-of-type:before {
+.nerd h2:last-of-type:before
+{
 	content: "\<\/";
 }
 
-.nerd h3 {
+.nerd h3
+{
 	font-size: 14px;
 	margin: 0 0 0 30px;
 	color: #660066;
 }
 
-.nerd h3:after {
-	content: ' {';
+.nerd h3:after
+{
+	content: "\{";
 	font-weight: normal;
 	color: black;
 }
 
-.nerd p {
+.nerd p
+{
 	font-size: 14px;
 	margin: 0;
 	position: relative;
 	text-indent: 60px;
 }
 
-.nerd p.text:after {
-	content: '}';
+.nerd p.text:after
+{
+	content: "}";
 	display: block;
 	text-indent: 30px;
 }
 
-.nerd p.date {
+.nerd p.date
+{
 	float: right;
 	color: green;
 }
 
-.nerd p.date:before {
-	content: '\/\/';
+.nerd p.date:before
+{
+	content: "\/\/";
 }
