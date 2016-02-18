@@ -1,0 +1,139 @@
+body {
+	background-color: #6699ff;
+}
+
+.wrapper {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	left: 50px;
+	right: 50px;
+	max-width: 900px;
+	min-width: 450px;
+	margin: 60px auto 60px auto;
+	padding: 0;
+	overflow: auto;
+}
+
+.wrapper:after {
+	padding-top: 129.41%;
+	display: block;
+	content: '';
+}
+
+.side {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 60px;
+	overflow: hidden;
+}
+
+#business-side {
+	background-color: lightgray;
+}
+
+#nerd-side {
+	background-color: white;
+	font-family: monospace;
+	// clip: rect(0, 500, 500, 0);
+}
+
+.nerd h1
+{
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: blue;
+}
+
+.nerd .header {
+	color: green;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.nerd .header div {
+}
+
+.nerd .header .address {
+	float: left;
+	padding-right: 30px;
+}
+
+.nerd .header .email {
+	float: right;
+	padding-left: 30px;
+	color: blue;
+}
+
+.nerd .header .phone {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+	text-align: center;
+}
+
+.nerd h2 {
+	margin: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.nerd h2:after {
+	content: "\>";
+}
+
+.nerd h2:first-of-type {
+	margin-top: 10px;
+}
+
+.nerd h2:last-of-type {
+	margin-bottom: 10px;
+}
+
+.nerd h2:first-of-type:before {
+	content: "\<";
+}
+
+.nerd h2:last-of-type:before {
+	content: "\<\/";
+}
+
+.nerd h3 {
+	font-size: 14px;
+	margin: 0 0 0 30px;
+	color: #660066;
+}
+
+.nerd h3:after {
+	content: ' {';
+	font-weight: normal;
+	color: black;
+}
+
+.nerd p {
+	font-size: 14px;
+	margin: 0;
+	position: relative;
+	text-indent: 60px;
+}
+
+.nerd p.text:after {
+	content: '}';
+	display: block;
+	text-indent: 30px;
+}
+
+.nerd p.date {
+	float: right;
+	color: green;
+}
+
+.nerd p.date:before {
+	content: '\/\/';
+}
